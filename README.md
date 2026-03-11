@@ -344,8 +344,6 @@ height="350"
 style="border:0;border-radius:10px">
 </iframe>
 
-</section>
-
 <section id="contact">
 
 <h2>Contact</h2>
@@ -354,7 +352,7 @@ style="border:0;border-radius:10px">
 
 <p>Email: support@onyxtechsolutions.com</p>
 
-<p>Serving Waterbury, Milford and surrounding Connecticut areas.</p>
+<p>Serving Waterbury areas.</p>
 
 </section>
 
@@ -364,11 +362,6 @@ style="border:0;border-radius:10px">
 
 </footer>
 
-
-
-
-
-}
 
 </script>
 
