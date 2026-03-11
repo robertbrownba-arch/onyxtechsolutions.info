@@ -238,7 +238,6 @@ OnyxTech Solutions
 <div class="card">CompTIA Network+</div>
 <div class="card">CompTIA Security+</div>
 <div class="card">Retail Infrastructure Field Technician Experience</div>
-<div class="card">Better Business Bureau Member</div>
 <div class="card">Waterbury Chamber Member</div>
 <div class="card">Milford Chamber Member</div>
 
@@ -407,24 +406,7 @@ let id=document.getElementById("ticket").value
 document.getElementById("status").innerHTML="Ticket "+id+" is currently in diagnostic stage."
 }
 
-/* chatbot */
 
-function chat(){
-
-let input=document.getElementById("chatInput")
-let body=document.getElementById("chatBody")
-
-body.innerHTML+="<br><b>You:</b> "+input.value
-
-let reply="Please call 203-819-8645 for support."
-
-if(input.value.toLowerCase().includes("virus"))
-reply="Virus removal service is $100."
-
-if(input.value.toLowerCase().includes("network"))
-reply="We install Cat6 networking and business infrastructure."
-
-body.innerHTML+="<br><b>Tech:</b> "+reply
 
 input.value=""
 
@@ -433,4 +415,5 @@ input.value=""
 </script>
 
 </body>
+
 </html>
