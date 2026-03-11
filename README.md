@@ -364,51 +364,9 @@ style="border:0;border-radius:10px">
 
 </footer>
 
-<div class="chatbot">
-
-<div class="chat-header">
-IT Support Chat
-</div>
-
-<div class="chat-body" id="chatBody">
-Hello! Ask about computer repair, networking or POS systems.
-</div>
-
-<div class="chat-input">
-
-<input id="chatInput" placeholder="Type message">
-
-<button onclick="chat()">Send</button>
-
-</div>
-
-</div>
-
-<script>
-
-/* scroll */
-
-function scrollToBooking(){
-document.getElementById("booking").scrollIntoView({behavior:"smooth"})
-}
-
-/* quote */
-
-function calc(){
-let price=document.getElementById("service").value
-document.getElementById("price").innerHTML="Estimated Cost: $"+price
-}
-
-/* ticket tracking */
-
-function track(){
-let id=document.getElementById("ticket").value
-document.getElementById("status").innerHTML="Ticket "+id+" is currently in diagnostic stage."
-}
 
 
 
-input.value=""
 
 }
 
